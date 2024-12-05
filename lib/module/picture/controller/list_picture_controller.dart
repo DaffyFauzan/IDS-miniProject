@@ -4,8 +4,8 @@ import 'package:miniproject/core.dart';
 class ListPictureController extends GetxController {
   var pictures = [].obs;
   var isLoading = true.obs;
-  int limit = 10; // Batas data per halaman
-  int page = 1; // Halaman saat ini
+  int limit = 20; // Batas data per halaman
+  int page = 10; // Halaman saat ini
 
   @override
   void onInit() {
